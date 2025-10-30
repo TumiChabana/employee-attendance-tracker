@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import AttendanceDashboard from "./pages/AttendanceDashboard";
+import AttendanceForm from "./pages/AttendanceForm";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <Router>
+        <nav>
+            <Link to='/'>Form</Link> | <Link to='/dashboard'>Dashboard</Link>
+        </nav>
+        <Routes>
+            <Route path='/' element={<AttendanceForm />}/>
+            <Route path='/dashboard' element={<AttendanceDashboard/>}/>        
+        </Routes> 
+    </Router>
   );
 }
 
