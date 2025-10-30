@@ -16,12 +16,29 @@ function AttendanceDashboard(){
     return(
         <div>
             <h2>Attendance History</h2>
-            <ul>
-                {records.map((r) =>(
-                    <li key={r.id}>{r.date} - {r.employeeName} ({r.employeeID}) - {r.status}</li>
+            <table className="attendance-table">
+            <thead>
+                <tr>
+                <th>Date</th>
+                <th>Employee Name</th>
+                <th>Employee ID</th>
+                <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {records.map((r) => (
+                <tr key={r.id}>
+                    <td>{r.date}</td>
+                    <td>{r.employeeName}</td>
+                    <td>{r.employeeID}</td>
+                    <td>{r.status}</td>
+                </tr>
                 ))}
-            </ul>
+            </tbody>
+            </table>
+        
         </div>
+        
     );
 }
 
