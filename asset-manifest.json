@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/employee-attendance-tracker/static/css/main.e7687ea9.css",
-    "main.js": "/employee-attendance-tracker/static/js/main.9255c2c6.js",
+    "main.css": "/employee-attendance-tracker/static/css/main.5cc06209.css",
+    "main.js": "/employee-attendance-tracker/static/js/main.6d63299e.js",
     "static/js/453.ef0332ab.chunk.js": "/employee-attendance-tracker/static/js/453.ef0332ab.chunk.js",
     "index.html": "/employee-attendance-tracker/index.html",
-    "main.e7687ea9.css.map": "/employee-attendance-tracker/static/css/main.e7687ea9.css.map",
-    "main.9255c2c6.js.map": "/employee-attendance-tracker/static/js/main.9255c2c6.js.map",
+    "main.5cc06209.css.map": "/employee-attendance-tracker/static/css/main.5cc06209.css.map",
+    "main.6d63299e.js.map": "/employee-attendance-tracker/static/js/main.6d63299e.js.map",
     "453.ef0332ab.chunk.js.map": "/employee-attendance-tracker/static/js/453.ef0332ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7687ea9.css",
-    "static/js/main.9255c2c6.js"
+    "static/css/main.5cc06209.css",
+    "static/js/main.6d63299e.js"
   ]
 }
